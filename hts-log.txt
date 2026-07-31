@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 31 Jul 2026 13:43:43 at https://sede.carm.es/jAD/IMAS_SC/FCFNValida.xhtml?URLParam.token=MEZCOKWUI29GK6GWLC62J9CDLKRF1DPAKX8IOFD5QXD2N8P43C +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://sede.carm.es/jAD/IMAS_SC/FCFNValida.xhtml?URLParam.token=MEZCOKWUI29GK6GWLC62J9CDLKRF1DPAKX8IOFD5QXD2N8P43C -O1 "C:\Mis lugares Web\Web" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:43:49	Warning: 	Moved Temporarily for https://sede.carm.es/jAD/IMAS_SC/Trident/
+13:43:49	Warning: 	File has moved from https://sede.carm.es/jAD/IMAS_SC/Trident/ to https://validate.perfdrive.com/?ssa=be686d4b-7bfd-4078-871e-f55e12aba464&ssb=00526217960&ssc=https%3A%2F%2Fsede.carm.es%2FjAD%2FIMAS_SC%2FTrident%2F&ssi=ffd773b9-di4m-437a-8aec-89d8aeeb139e&ssk=botmanager_support@radware.com&ssm=98928590932331589168535537381861&ssn=76ffaf3b8a60cbf8b0df6c0ebebaff32372602b6dcef-48ef-4285-b7053d&sso=c978ef30-5619dce38f4e285cb686d36a6878528cd4ea2796f6a7d4f1&ssp=20856033771785498934178542237627476&ssq=40012339822613566028498224273660697655727&ssr=ODMuNDkuMTgyLjE3&sst=Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImNhcm0uZXMiLCJ1em14IjoiN2Y5MDAwNjgyZWYxMDktYzM5My00YTI5LWI0OWYtMzAzMzc2NTZjNWJiMS0xNzg1NDk4MjI0MDY1Mjg0OC03ZTM3MzMzZjNiYzNmOGM4MTYiLCJfX3V6bWYiOiI3ZjkwMDAwMmI2ZGNlZi00OGVmLTQyODUtYmYzMC01NjE5ZGNlMzhmNGUxLTE3ODU0OTgyMjQwNjUyODQ4LTAwMzg5NGUzOTIyYWYwMmJjODMxNiJ9
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 seconds : 16 links scanned, 14 files written (1216848 bytes overall) [807067 bytes received at 161413 bytes/sec], 722782 bytes transferred using HTTP compression in 12 files, ratio 40%, 9.5 requests per connection
+(No errors, 2 warnings, 0 messages)

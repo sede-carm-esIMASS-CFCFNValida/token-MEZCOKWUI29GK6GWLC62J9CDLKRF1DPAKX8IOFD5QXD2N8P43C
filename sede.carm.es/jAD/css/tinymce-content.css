@@ -1,0 +1,385 @@
+/* TinyMCE Content CSS - Corrección para Listas e Indentación */
+
+/* ============================= LISTAS PRINCIPALES ============================= */
+
+/* Listas numeradas principales */
+.rich-editor ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: decimal;
+}
+
+.rich-editor ol li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+/* Listas con viñetas principales */
+.rich-editor ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: disc;
+}
+
+.rich-editor ul li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+/* ============================= LISTAS ANIDADAS ============================= */
+
+/* Nivel 2: Letras minúsculas para listas numeradas anidadas */
+.rich-editor ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: lower-alpha;
+}
+
+/* Nivel 3: Números romanos */
+.rich-editor ol ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: lower-roman;
+}
+
+/* Viñetas anidadas - círculos */
+.rich-editor ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: circle;
+}
+
+/* Viñetas anidadas - cuadrados */
+.rich-editor ul ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: square;
+}
+
+/* Listas mixtas */
+.rich-editor ul ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: decimal;
+}
+
+.rich-editor ol ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: disc;
+}
+
+/* ============================= INDENTACIÓN ============================= */
+
+/* Soporte para indentación con padding-left */
+*[style*="padding-left: 40px"] {
+    padding-left: 40px !important;
+}
+
+*[style*="padding-left: 80px"] {
+    padding-left: 80px !important;
+}
+
+*[style*="padding-left: 120px"] {
+    padding-left: 120px !important;
+}
+
+*[style*="padding-left: 160px"] {
+    padding-left: 160px !important;
+}
+
+/* Soporte para indentación con margin-left */
+*[style*="margin-left: 40px"] {
+    margin-left: 40px !important;
+}
+
+*[style*="margin-left: 80px"] {
+    margin-left: 80px !important;
+}
+
+*[style*="margin-left: 120px"] {
+    margin-left: 120px !important;
+}
+
+*[style*="margin-left: 160px"] {
+    margin-left: 160px !important;
+}
+
+/* ============================= ELEMENTOS BÁSICOS ============================= */
+
+.rich-editor p {
+    display: block;
+    margin: 1em 0;
+    line-height: 1.4;
+}
+
+.rich-editor h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+
+.rich-editor h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    font-weight: bold;
+}
+
+.rich-editor h3 {
+    display: block;
+    font-size: 1.17em;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.rich-editor h4 {
+    display: block;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.rich-editor h5 {
+    display: block;
+    font-size: 0.83em;
+    margin: 1.67em 0;
+    font-weight: bold;
+}
+
+.rich-editor h6 {
+    display: block;
+    font-size: 0.67em;
+    margin: 2.33em 0;
+    font-weight: bold;
+}
+
+.rich-editor pre {
+    margin: 8px;
+    white-space: pre;
+    display: block;
+    font-family: monospace;
+}
+
+.rich-editor address {
+    font-style: italic;
+    display: block;
+}
+
+.rich-editor blockquote {
+    margin: 1em 40px;
+    display: block;
+}
+
+/* ============================= RICH-TEXT-OUTPUT ============================= */
+
+.rich-text-output ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: decimal;
+}
+
+.rich-text-output ol li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+.rich-text-output ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: disc;
+}
+
+.rich-text-output ul li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+.rich-text-output ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: lower-alpha;
+}
+
+.rich-text-output ol ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: lower-roman;
+}
+
+.rich-text-output ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: circle;
+}
+
+.rich-text-output ul ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: square;
+}
+
+.rich-text-output ul ol, .rich-text-output ol ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+}
+
+/* ============================= ESTILOS ADICIONALES ============================= */
+
+.rich-editor a:link {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.rich-editor a:visited {
+    color: #551A8B;
+    text-decoration: underline;
+}
+
+.rich-editor a:hover {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.rich-editor .bold-larger {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.rich-editor .red-bold {
+    font-weight: bold;
+    color: red;
+}
+
+/* ============================= PREVISUALIZACIÓN DEL DISEÑADOR ============================= */
+/* Estilos específicos para la previsualización en jDAD */
+
+.rich-text-preview ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: decimal;
+}
+
+.rich-text-preview ol li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+.rich-text-preview ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: disc;
+}
+
+.rich-text-preview ul li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+/* Listas anidadas en previsualización */
+.rich-text-preview ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: lower-alpha;
+}
+
+.rich-text-preview ol ol ol {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: lower-roman;
+}
+
+.rich-text-preview ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+    list-style-type: circle;
+}
+
+.rich-text-preview ul ul ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 25px;
+    list-style-type: square;
+}
+
+.rich-text-preview ul ol, .rich-text-preview ol ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 30px;
+}
+
+/* Clase show-rich para compatibilidad */
+.show-rich ol, .show-rich ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+
+.show-rich ol li, .show-rich ul li {
+    margin: 0.5em 0;
+    padding: 0 0 0 5px;
+    line-height: 1.4;
+}
+
+/* Estilos específicos para contenido generado por TinyMCE/Quill con clases ql-indent */
+.rich-text-output .ql-indent-1,
+.show-rich .ql-indent-1 {
+    margin-left: 40px !important;
+    padding-left: 10px !important;
+}
+
+.rich-text-output .ql-indent-2,
+.show-rich .ql-indent-2 {
+    margin-left: 80px !important;
+    padding-left: 15px !important;
+}
+
+.rich-text-output .ql-indent-3,
+.show-rich .ql-indent-3 {
+    margin-left: 120px !important;
+    padding-left: 20px !important;
+}
+
+.rich-text-output .ql-indent-4,
+.show-rich .ql-indent-4 {
+    margin-left: 160px !important;
+    padding-left: 25px !important;
+}
+
+.rich-text-output .ql-indent-5,
+.show-rich .ql-indent-5 {
+    margin-left: 200px !important;
+    padding-left: 30px !important;
+}
+
+/* Alineación de texto */
+.rich-text-output .ql-align-justify,
+.show-rich .ql-align-justify {
+    text-align: justify !important;
+}
+
+.rich-text-output .ql-align-center,
+.show-rich .ql-align-center {
+    text-align: center !important;
+}
+
+.rich-text-output .ql-align-right,
+.show-rich .ql-align-right {
+    text-align: right !important;
+}
+
+.rich-text-output .ql-align-left,
+.show-rich .ql-align-left {
+    text-align: left !important;
+}
+
+/* Estilos para párrafos con margin-left específico (simulación de indentación) */
+.rich-text-output p[style*="margin-left"],
+.show-rich p[style*="margin-left"] {
+    line-height: 1.5 !important;
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+}
