@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+sede.carm.es	TRUE	/jAD	FALSE	1999999999	JSESSIONID	A3326048BA9BBDCA0255E731125C0D0E.jvmjadpro6
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzma	02b6dcef-48ef-4285-bf30-5619dce38f4e
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzmb	1785498224
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzme	7519
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzmc	300091920685
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzmd	1785498227
+sede.carm.es	TRUE	/	FALSE	1999999999	__uzmf	7f900002b6dcef-48ef-4285-bf30-5619dce38f4e1-17854982240653081-003056ef79d254bf81019
+.carm.es	TRUE	/	FALSE	1999999999	uzmx	7f9000682ef109-c393-4a29-b49f-30337656c5bb1-17854982240653081-f1e103e429748ba519
+sede.carm.es	TRUE	/	FALSE	1999999999	SameSite	Lax
+
